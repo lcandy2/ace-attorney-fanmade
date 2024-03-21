@@ -1,13 +1,13 @@
-import type {Metadata, Viewport} from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const APP_NAME = "PWA App";
-const APP_DEFAULT_TITLE = "My Awesome PWA App";
-const APP_TITLE_TEMPLATE = "%s - PWA App";
-const APP_DESCRIPTION = "Best PWA app in the world!";
+const APP_NAME = "Ace Attorney CitronMade";
+const APP_DEFAULT_TITLE = "Ace Attorney Objection!";
+const APP_TITLE_TEMPLATE = "%s | Ace Attorney CitronMade";
+const APP_DESCRIPTION = "Ace Attorney Objection!";
 
 export const metadata: Metadata = {
   applicationName: APP_NAME,
